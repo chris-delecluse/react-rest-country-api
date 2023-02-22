@@ -7,16 +7,17 @@ import { Button } from "../../components/button";
 import Header from "../../components/header";
 import { currencyType } from "./country.type";
 import {
-    BorderWrapper, Container,
+    BorderWrapper,
+    Container,
     ImgWrapper,
     StyledArticle,
     StyledDiv,
     StyledImg,
     StyledSection,
     StyledSpan,
-    StyledTitle, SubContainer
+    StyledTitle,
+    SubContainer
 } from "./country.styles";
-import styled from "styled-components";
 
 const Country: FC<any> = (): JSX.Element => {
     const { name } = useParams();

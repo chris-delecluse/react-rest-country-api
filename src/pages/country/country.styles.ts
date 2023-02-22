@@ -58,7 +58,7 @@ export const Container = styled.div`
   
   @media (min-width: 501px) {
     justify-content: space-around;
-    margin: 2.5em 7em;
+    margin: 4.3em 7em;
   }
 `;
 
